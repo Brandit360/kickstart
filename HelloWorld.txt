@@ -27,7 +27,9 @@ after pushing you have to add everything again so
 
 Committing is like Cmmnd-S any file except it creates a snapshot in time so nothing gets deleted
 
+-------------------------------------------
 WHERE ARE YOU PUSHING TO? HOW DO YOU CHANGE IT?
+-------------------------------------------
 
 git remote -v
 # View existing remotes
@@ -41,3 +43,24 @@ git remote -v
 # Verify new remote URL
 # origin  https://github.com/user/repo2.git (fetch)
 # origin  https://github.com/user/repo2.git (push)
+
+-------------------------------------------
+AND HOW DO YOU TELL GIT TO SYNC FOLDERS??
+-------------------------------------------
+
+git remote add origin https://github.com/sergioofarrill/myproject.git
+
+-------------------------------------------
+Create a new repository on the command line
+-------------------------------------------
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sergioofarrill/share.git
+git push -u origin master
+Push an existing repository from the command line
+
+git remote add origin https://github.com/sergioofarrill/share.git
+git push -u origin master
