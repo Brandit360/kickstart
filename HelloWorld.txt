@@ -24,3 +24,5 @@ After that you can git push your changes to github
 after pushing you have to add everything again so 
 
 	commit often push when ready
+
+Committing is like Cmmnd-S any file except it creates a snapshot in time so nothing gets deleted
