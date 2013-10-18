@@ -1,0 +1,20 @@
+This is to see if indeed i can push something to Github…I think I'm starting to get this stupid shit
+
+DAMN I forgot to Commit
+
+Lets try this 
+
+WHen we first make a repo we need to git init
+
+once thats done we can use git commands in that folder like git status (te check the status of the files)
+
+git add ( to add files so git knows what files to watch)
+git add . (to add the current folder)
+
+once added you can make changes to files 
+
+and then you can  git commit
+
+THIS IS IMPORTANT
+
+Every time you make a change to a file you need to Commit it before doing anything else
