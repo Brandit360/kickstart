@@ -26,3 +26,18 @@ after pushing you have to add everything again so
 	commit often push when ready
 
 Committing is like Cmmnd-S any file except it creates a snapshot in time so nothing gets deleted
+
+WHERE ARE YOU PUSHING TO? HOW DO YOU CHANGE IT?
+
+git remote -v
+# View existing remotes
+# origin  https://github.com/user/repo.git (fetch)
+# origin  https://github.com/user/repo.git (push)
+
+git remote set-url origin https://github.com/user/repo2.git
+# Change the 'origin' remote's URL
+
+git remote -v
+# Verify new remote URL
+# origin  https://github.com/user/repo2.git (fetch)
+# origin  https://github.com/user/repo2.git (push)
