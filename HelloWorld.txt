@@ -13,8 +13,14 @@ git add . (to add the current folder)
 
 once added you can make changes to files 
 
-and then you can  git commit
+and then you can  git commit -m "message here"
 
 THIS IS IMPORTANT
 
 Every time you make a change to a file you need to Commit it before doing anything else
+
+After that you can git push your changes to github
+
+after pushing you have to add everything again so 
+
+	commit often push when ready
